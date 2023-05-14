@@ -11,7 +11,7 @@ A simple full-screen clock app built with React Native and Expo. Stay aware of t
 
 ## Screenshot
 
-![Screenshot](https://github.com/10cyrilc/full-screen-clock/screenshot/screen.png)
+![Screenshot](https://github.com/10cyrilc/full-screen-clock/blob/main/screenshot/screen.png?raw=true)
 
 ## Getting Started
 
