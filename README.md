@@ -5,9 +5,8 @@ A simple full-screen clock app built with React Native and Expo. Stay aware of t
 ## Features
 
 - Full-screen clock display with large digits
-- Digital clock format with hours, minutes, and seconds
+- Digital clock format with hours, minutes, seconds, date and day of the week
 - Automatic time updates
-- Customizable clock color and background
 
 ## Screenshot
 
