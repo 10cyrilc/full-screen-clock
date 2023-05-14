@@ -2,14 +2,17 @@
   "expo": {
     "name": "full-screen-clock",
     "slug": "full-screen-clock",
-    "version": "1.0.0",
-    "orientation": "portrait",
+    "version": "2.2.2",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#333333"
+    },
+    "androidNavigationBar": {
+      "visible": "immersive"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.cyrilc1002.fullscreenclock"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb1a1322-dffc-49fa-877c-11293f79d93d"
+      }
     }
   }
 }
