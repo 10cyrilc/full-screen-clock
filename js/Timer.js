@@ -33,7 +33,7 @@ const Timer = () => {
       const minutes = date.getMinutes();
       const seconds = date.getSeconds();
       const calendarDate = date.getDate();
-      const month = date.getMonth();
+      const month = date.getMonth() + 1;
       const year = date.getFullYear();
       const day = weekday[date.getDay()];
 
